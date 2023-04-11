@@ -245,7 +245,7 @@ class Script(scripts.Script):
         if use_mask:
             mask_dir = input_dir
             use_img_mask = True
-            as_output_alpha = True
+            as_output_alpha = False
 
         if is_rerun:
             original_strength = copy.deepcopy(p.denoising_strength)
